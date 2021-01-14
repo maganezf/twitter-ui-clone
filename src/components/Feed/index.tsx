@@ -1,17 +1,20 @@
 import React from 'react';
 
 import Tweet from '../Tweet';
-
 import { Container, TabContainer, Tab, Tweets } from './styles';
 
-const Feed: React.FC = () => {
+export interface Props {
+  selected?: boolean;
+}
+
+const Feed: React.FC<Props> = ({ selected }) => {
   return (
     <Container>
       <TabContainer>
-        <Tab>Tweets</Tab>
-        <Tab>Tweets & replies</Tab>
-        <Tab>Media</Tab>
-        <Tab>Likes</Tab>
+        <Tab className={selected ? 'active' : ''}>Tweets</Tab>
+        <Tab className={selected ? 'active' : ''}>Tweets & replies</Tab>
+        <Tab className={selected ? 'active' : ''}>Media</Tab>
+        <Tab className={selected ? 'active' : ''}>Likes</Tab>
       </TabContainer>
 
       <Tweets>

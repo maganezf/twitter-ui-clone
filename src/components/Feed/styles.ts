@@ -23,7 +23,9 @@ export const Tab = styled.button`
   cursor: pointer;
 
   color: var(--twitter);
+  border-bottom: 1px solid var(--outline);
 
+  &.active,
   &:focus {
     border-bottom: 2px solid var(--twitter);
   }
