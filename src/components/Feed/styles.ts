@@ -25,7 +25,7 @@ export const Tab = styled.button`
   color: var(--twitter);
   border-bottom: 1px solid var(--outline);
 
-  &.active,
+  &:active,
   &:focus {
     border-bottom: 2px solid var(--twitter);
   }
