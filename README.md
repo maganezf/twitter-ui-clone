@@ -1,6 +1,6 @@
 <div align='center'>
 
-# <img align='center' src='./.github/twitter-logo.png' alt="Twitter logo" width="100" />
+# <img align='center' src='https://upload.wikimedia.org/wikipedia/pt/thumb/3/3d/Twitter_logo_2012.svg/1200px-Twitter_logo_2012.svg.png' alt="Twitter logo" width="100" />
 
 # <img align='center' src="./.github/logo.svg" alt="My logo (maganezf)" width="350" />
 
