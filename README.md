@@ -1,6 +1,6 @@
 <div align='center'>
 
-# <img align='center' src="./.github/twitter-logo.svg" alt="Twitter logo" width="100" style='border-radius: 6px;'/>
+# <img align='center' src="./.github/twitter-logo.png" alt="Twitter logo" width="100" style='border-radius: 6px;'/>
 
 # <img align='center' src="./.github/logo.svg" alt="My logo (maganezf)" width="350" style='border-radius: 6px;'/>
 
